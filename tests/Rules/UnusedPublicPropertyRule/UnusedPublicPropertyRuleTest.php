@@ -136,6 +136,7 @@ final class UnusedPublicPropertyRuleTest extends RuleTestCase
             __DIR__ . '/Fixture/StaticUsedInUnionA.php', __DIR__ . '/Fixture/StaticUsedInUnionB.php', __DIR__ . '/Source/StaticUsedInUnion.php'],
             [],
         ];
+        yield [[__DIR__ . '/Fixture/NullableProperty.php', __DIR__ . '/Source/PublicPropertyClass.php'], []];
 
     }
 
